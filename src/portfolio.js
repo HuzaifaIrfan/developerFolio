@@ -15,7 +15,7 @@ const greeting = {
   //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   // ),
     subTitle: emoji(
-    "A Passionate Electronics Engineering Student 🚀 at Lumber 1 Department of Lumber 1 University."
+    "A Passionate Mechanical Engineering Student 🚀 at Lumber 1 Department of Lumber 1 University."
   ),
   resumeLink:
     "http://huzaifairfan.com/",
@@ -41,21 +41,96 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
+  // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Design highly interactive Frontend User Interfaces"
-    ),
-    emoji("⚡ Develop programs to solve real world problems through automation and python"),
-    emoji(
-      "⚡ Develop Mechanical solutions in CAD and MRC"
-    )
+    // emoji(
+    //   "⚡ Take Online Classes on MS Team in Hostels."
+    // ),
+
+    // emoji(
+    //   "⚡ Learn 3D Printing and Welding in an Online Workshop."
+    // ),
+    // emoji(
+    //   "⚡ Give End Semester Exams in Hostel Mess."
+    // ),
+    // emoji(
+    //   "⚡ Write Long Essays and Paragraphs in Lab Reports."
+    // ),
+
+    // emoji(
+    //   "⚡ Design highly interactive Frontend User Interfaces"
+    // ),
+    // emoji("⚡ Develop programs to solve real world problems through automation and python"),
+    // emoji(
+    //   "⚡ Develop Mechanical solutions in CAD and MRC"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+
+            {
+      skillName: "Googlite",
+      fontAwesomeClassname: "fab fa-google"
+    },
+
+    {
+      skillName: "Facebooker",
+      fontAwesomeClassname: "fab fa-facebook-square"
+    },
+
+
+
+    {
+      skillName: "Nustian",
+      fontAwesomeClassname: "fas fa-university"
+    },
+
+
+
+    {
+      skillName: "Student",
+      fontAwesomeClassname: "fas fa-user-graduate"
+    },
+
+
+    {
+      skillName: "Mechanic",
+      fontAwesomeClassname: "fas fa-wrench"
+    },
+
+
+    {
+      skillName: "Researcher",
+      fontAwesomeClassname: "fab fa-youtube"
+    },
+
+        {
+      skillName: "Writer",
+      fontAwesomeClassname: "fas fa-pen"
+    },
+
+    {
+      skillName: "Meh",
+      fontAwesomeClassname: "fas fa-meh"
+    },
+
+    {
+      skillName: "Sleep",
+      fontAwesomeClassname: "fas fa-bed"
+    },
+
+
+    //     {
+    //   skillName: "HTML",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+
+
+
     // {
     //   skillName: "reactjs",
     //   fontAwesomeClassname: "fab fa-react"
@@ -72,30 +147,30 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "firebase",
     //   fontAwesomeClassname: "fas fa-fire"
     // },
-    {
-      skillName: "Mechanical Design",
-      fontAwesomeClassname: "fas fa-cogs"
-    },
-    {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Raspberry Pi",
-      fontAwesomeClassname: "fab fa-raspberry-pi"
-    },
-    {
-      skillName: "Server Admin",
-      fontAwesomeClassname: "fas fa-server"
-    },
-    {
-      skillName: "Ubuntu",
-      fontAwesomeClassname: "fab fa-ubuntu"
-    },
+    // {
+    //   skillName: "Mechanical Design",
+    //   fontAwesomeClassname: "fas fa-cogs"
+    // },
+    // {
+    //   skillName: "Bootstrap",
+    //   fontAwesomeClassname: "fab fa-bootstrap"
+    // },
+    // {
+    //   skillName: "Python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "Raspberry Pi",
+    //   fontAwesomeClassname: "fab fa-raspberry-pi"
+    // },
+    // {
+    //   skillName: "Server Admin",
+    //   fontAwesomeClassname: "fas fa-server"
+    // },
+    // {
+    //   skillName: "Ubuntu",
+    //   fontAwesomeClassname: "fab fa-ubuntu"
+    // },
 
     
   ],
@@ -120,7 +195,7 @@ const educationInfo = {
       // ]
     },
     {
-      schoolName: "Shaheen Academy",
+      schoolName: "Shaheen Interscience Academy",
       logo: "/img/shaheen.png",
       subHeader: "FSc Pre Engineering",
       duration: "March 2017 - June 2019",
@@ -137,18 +212,22 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
+    // {
+    //   Stack: "HTML", //Insert stack or technology you have experience in
+    //   progressPercentage: "15%" //Insert relative proficiency in percentage
+    // },
     {
-      Stack: "Django", //Insert stack or technology you have experience in
-      progressPercentage: "40%" //Insert relative proficiency in percentage
+      Stack: "Skills",
+      progressPercentage: "3%"
     },
     {
-      Stack: "CAD",
-      progressPercentage: "10%"
+      Stack: "Games",
+      progressPercentage: "4%"
     },
     {
-      Stack: "Tankionline",
-      progressPercentage: "20%"
-    }
+      Stack: "Grades",
+      progressPercentage: "5%"
+    },
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -229,7 +308,7 @@ const bigProjects = {
     //   ]
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -332,7 +411,10 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  "Want to Discuss something or just want to say hi?",
+  // subtitle:
+  //   "Discuss a project or just want to say hi? My Inbox is open for all.",
+    // number: "+92-3007361690",
   number: "+92-3354863120",
   email_address: "huzaifairfan2001@gmail.com"
 };
